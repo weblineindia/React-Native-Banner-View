@@ -1,4 +1,4 @@
-# rn-weblineindia-banner-view
+# React Native Banner View Component
 
 A react native component for showing banner that automatically swipe.
 
