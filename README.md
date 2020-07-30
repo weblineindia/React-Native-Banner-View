@@ -27,7 +27,7 @@ A react native component for showing banner that automatically swipe.
 
 ## Supported versions
 
-ReactNative 0.60 - 0.62.5 is supported for v1.0.0
+We have tested this component in ReactNative 0.60 - 0.62.5. You can still use it in other versions.
 
 ```javascript
 import BannerView from 'rn-weblineindia-banner-view';
