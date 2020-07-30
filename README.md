@@ -1,13 +1,25 @@
-# rn-weblineindia-banner-view
+# React Native Banner View Component
 
 A react native component for showing banner that automatically swipe.
 
 ## Getting Started
 
+- [Demo](#demo)
 - [Installation](#installation)
 - [Supported versions](#supported-versions)
 - [Usage](#usage)
 - [Props](#props)
+- [Methods](#methods)
+- [Want to Contribute?](#want-to-contribute?)
+- [Need Help?](#need-help?)
+- [Collection of Components](#collection-of-components)
+- [Changelog](#changelog)
+- [License](#license)
+- [Keywords](#keywords)
+
+## Demo
+
+[![](BannerView.png)](https://github.com/weblineindia/React-Native-Banner-View/blob/master/BannerView.png)
 
 ## Installation
 
@@ -38,8 +50,17 @@ import BannerView from 'rn-weblineindia-banner-view';
 | passiveIndicatorColor | `string`           | no                 | Color to be displayed for passive page indicator |
 | viewStyle             | `[object, array]`  | no                 | Styles is passed to the page view                |
 | imageStyle            | `[object, array]`  | no                 | Styles is passed to the image                    |
+| isAutoPlay            | `boolean`          | no                 | default true                                     |
+| timeDuration          | `number`           | no                 | default 5 sec, For better result use max 3 sec   |
+| onChangeIndex         | callback           | no                 | get index value of banner                        |
 
 -----
+
+## Methods
+
+| **Method**           | **Description**                                                             |
+|----------------------|-----------------------------------------------------------------------------|
+| onChangeIndex        | Callback that is called when the banner index is changed.                   |
 
 ## Want to Contribute?
 

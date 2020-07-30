@@ -1,7 +1,7 @@
 {
   "name": "rn-weblineindia-banner-view",
   "title": "React Native Banner View",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A react native component for showing banner that automatically swipe.",
   "main": "index.js",
   "files": [
