@@ -10,7 +10,6 @@ import React, { Component } from 'react';
 import { View, FlatList, StatusBar, Text, TouchableOpacity, Image, Alert } from 'react-native';
 import styles from './Styles';
 import BannerItem from './BannerItem';
-import * as images from './images/map';
 
 type IProps = {
   activeIndicatorColor: String,
@@ -201,6 +200,7 @@ export default class BannerView extends Component<IProps> {
                       imageStyle={this.props.imageStyle}
                       isAutoScroll={(val) => this.closeAutoScroll(val)}
                       scrollVal={isAutoScroll}
+                      url={item}
                     />
                   )}
                   // keyExtractor={(item) => item.id.toString()}
@@ -210,7 +210,7 @@ export default class BannerView extends Component<IProps> {
 
                 {/* Show button for play Autoswipe */}
 
-                {this.state.isAutoScroll === true ? null : (
+                {/* {this.state.isAutoScroll === true ? null : (
                   <View style={[styles.playView, this.props.viewStyle]}>
                     <TouchableOpacity
                       onPress={() => this.closeAutoScroll(true)}
@@ -228,7 +228,7 @@ export default class BannerView extends Component<IProps> {
                         }} />
                     </TouchableOpacity>
                   </View>
-                )}
+                )} */}
 
                 {/* second flatlist for indicator */}
 

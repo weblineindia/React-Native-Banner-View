@@ -18,8 +18,7 @@ class BannerItem extends Component<IProps> {
   }
 
   render() {
-    const {viewStyle, imageStyle} = this.props;
-    // console.log('----------------------', this.props.scrollVal);
+    const {viewStyle, imageStyle, url} = this.props;
     return (
       <View
         onTouchStart={(e) => {
@@ -27,7 +26,7 @@ class BannerItem extends Component<IProps> {
         }}
         style={[styles.containerStyle, viewStyle]}>
         <ImageBackground
-          source={{uri: this.props.image}}
+          source={{uri: url}}
           style={[styles.imageStyle, imageStyle]}>
 
           <View style={styles.textView}>

@@ -1,7 +1,7 @@
 {
   "name": "rn-weblineindia-banner-view",
   "title": "React Native Banner View",
-  "version": "1.0.1",
+  "version": "1.0.4",
   "description": "A react native component for showing banner that automatically swipe.",
   "main": "index.js",
   "files": [
@@ -9,7 +9,9 @@
     "android",
     "index.js",
     "ios",
-    "rn-weblineindia-banner-view.podspec"
+    "rn-weblineindia-banner-view.podspec",
+    "Styles.js",
+    "BannerItem.js"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,19 +28,20 @@
     "banner",
     "view"
   ],
-  "author": {
-    "name": "Weblineindia"
-  },
+  "author": "Weblineindia",
   "license": "MIT",
   "homepage": "https://www.weblineindia.com/software-development-resources.html",
   "licenseFilename": "LICENSE",
   "readmeFilename": "README.md",
   "peerDependencies": {
-    "react": "^16.8.1",
-    "react-native": ">=0.60.0-rc.0 <1.0.x"
+    "react": "^17.0.2",
+    "react-native": ">=0.66.4-rc.0 <1.0.x"
   },
   "devDependencies": {
-    "react": "^16.9.0",
-    "react-native": "^0.61.5"
+    "react": "^17.0.2",
+    "react-native": "^0.66.4"
+  },
+  "bugs": {
+    "url": "https://github.com/weblineindia/React-Native-Banner-View/issues"
   }
 }
